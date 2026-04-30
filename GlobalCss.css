@@ -1,0 +1,75 @@
+body{
+  background-image: url("Img/white-plain-concrete-textured-background_53876-102604.avif");
+  padding: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Oranienbaum';
+  src: url('fonts/Oranienbaum.woff2') format('woff2'),
+       url('fonts/Oranienbaum.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'beatrice-deck-trial-Extrabold';
+  src: url('fonts/Beatrice\ Deck\ Trial\ Extrabold.woff2') format('woff2'),
+       url('fonts/Beatrice\ Deck\ Trial\ Extrabold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'beatrice-deck-trial-Light';
+  src: url('fonts/Beatrice\ Deck\ Trial\ Light.woff2') format('woff2'),
+       url('fonts/Beatrice\ Deck\ Trial\ Light.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Scope-One';
+  src: url('fonts/Scope-One.woff2') format('woff2'),
+       url('fonts/Scope-One.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Beatrice Deck Trial-Medium';
+  src: url('fonts/Beatrice\ Deck\ Trial\ Medium.woff2') format('woff2'),
+       url('fonts/Beatrice\ Deck\ Trial\ Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Fonts/Inter.woff2') format('woff2');
+  src: url('Fonts/Inter.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'beatrice-headline-trial';
+  src: url('Fonts/Beatrice\ Headline\ Trial.woff2') format('woff2');
+  src: url('Fonts/Beatrice\ Headline\ Trial.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'beatrice-display-trial';
+  src: url('Fonts/Beatrice\ Display\ Trial.woff2') format('woff2');
+  src: url('Fonts/Beatrice\ Display\ Trial.woff') format('woff');
+}

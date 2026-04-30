@@ -1,0 +1,181 @@
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid black; */
+    width: 1850px;
+}
+
+.Title{
+    font-size: 50px;
+    min-width: 360px;
+
+    font-family: "Oranienbaum";
+}
+
+.spacer{
+    width: 40%;
+    /* border: blue 1px solid; */
+}
+
+.Main_navigation{
+
+    height: 30px;
+    width: 360px;
+    gap: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_navigation a{
+    font-family: "Scope-One", Helvetica;
+    font-weight: 300;
+
+    font-size: 18px;
+
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    /* border: #000000 1px solid; */
+    padding: 10px;
+
+    gap: 10px;
+}
+
+.Cart{
+    display: flex;
+
+    /* border: #000000 1px solid; */
+}
+.CartBox{
+  width: 76px;
+  height: 50px;
+
+  background-color: #000000;
+  border-radius: 22px;
+  /* border: 1px solid black;  */
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.CartText{
+  font-family: "Beatrice Deck Trial-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #ffffff;
+
+  letter-spacing: 2px;
+  line-height: normal;
+}
+.CartCon{
+    position:relative;
+    right: 10px;
+
+    /* border: red 1px solid; */
+}
+
+/* MAIN CONTAINER */
+.container.main{
+    display: flex;
+    border: #000000 solid 1px;
+    padding: 10px;
+    width: 100%;
+
+}
+/* ASIDE */
+aside{
+    /* border: #000000 1px solid; */
+    width: 20%;
+
+
+    padding-top:50px ;
+    padding-right:50px ;
+}
+/* MAIN ---------------------------------------------------------------------------------------*/
+main{
+    /* border: violet 1px solid; */
+    width: 80%;
+   
+
+    justify-self: center;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Lane.First{
+    display: flex;
+    flex-direction: row;
+    /* border: #000000 solid 1px; */
+    margin-bottom: 10px;
+}
+.Search{
+    border: none;
+    width: 90%;
+    height: 50px;
+
+    background-color: #D4D4D4;
+
+    position:relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Types{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.Types button{
+    height: 20px;
+    width: 120px;
+
+    border: 1px solid #5f5f5f;
+    background: none;
+
+    font-family: 'beatrice-headline-trial',Helvetica;
+}
+
+.Preview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1f);
+    gap: 0px;
+    width: 100%;
+}
+.Product img{
+    width: 300px;
+}
+.Product p{
+    line-height: 10px;
+    font-size: 15px;
+}
+.Product p:nth-child(2){
+    font-family: 'beatrice-headline-trial',Helvetica;
+    color: #515151;
+}
+.Product p:nth-child(3){
+    font-family: 'beatrice-display-trial',Helvetica;
+    color: black;
+}
