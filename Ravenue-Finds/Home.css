@@ -1,0 +1,405 @@
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+    width: 1850px;
+}
+
+.Title{
+    font-size: 50px;
+    min-width: 360px;
+
+    font-family: "Oranienbaum";
+}
+
+.spacer{
+    width: 40%;
+    /* border: blue 1px solid; */
+}
+
+.Main_navigation{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 360px;
+    gap: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_navigation a{
+    font-family: "Scope-One", Helvetica;
+    font-weight: 300;
+
+    font-size: 18px;
+
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    
+    /* border: #000000 1px solid; */
+    padding: 10px;
+
+    gap: 10px;
+}
+
+.Cart{
+    display: flex;
+
+    /* border: #000000 1px solid; */
+}
+.CartBox{
+  width: 76px;
+  height: 50px;
+  
+  background-color: #000000;
+  border-radius: 22px;
+  /* border: 1px solid black;  */
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.CartText{ 
+  font-family: "Beatrice Deck Trial-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 12px;
+  
+  color: #ffffff;
+  
+  letter-spacing: 2px;
+  line-height: normal;
+}
+.CartCon{
+    position:relative;
+    right: 10px;
+
+    /* border: red 1px solid; */
+}
+
+/* MAIN ---------------------------------------------------------------------------------------*/
+main{
+    /* border: violet 1px solid; */
+    width: 100%;
+
+    justify-self: center;
+    position: relative;
+    top: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.container.main{
+    display: block;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+    width: 1850px;
+}
+.Lane{
+
+    /* border: #000000 1px solid; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    margin: 20px;
+}
+.Lane.Third{
+    /* border: #000000 1px solid; */
+    gap: 100px;
+}
+
+.Gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    position: relative;
+    left: 20px;
+    
+    width: 360px;
+}
+.Lane.Fourth{
+    display: flex;
+    flex-direction: column;
+}
+.Lane.Fourth .Headings{
+    display: flex;
+    width: 100%;
+
+    flex-direction: row;
+
+    justify-content:space-between;
+}
+.Lane.Fourth .Previews{
+    width: 100%;
+}
+.Lane .Product img{
+    height: 400px;
+}
+.Lane .Product p{
+    line-height: 10px;
+    font-size: 15px;
+}
+.Lane .Product p:nth-child(2){
+    font-family: 'beatrice-headline-trial',Helvetica;
+    color: #515151;
+}
+.Lane .Product p:nth-child(3){
+    font-family: 'beatrice-display-trial',Helvetica;
+    color: black;
+}
+
+.Lane.Fifth{
+    display: flex;
+    flex-direction: column;
+}
+.Lane.Fifth .Headings{
+    display: block;
+}
+.Selections{
+    display: flex;
+    gap: 30px;
+
+    font-size: 24px;
+    line-height: 1px;
+}
+
+.Lane.Sixth{
+    margin-top:200px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1200px;
+}
+
+.Lane.Sixth .Headings{
+    height: 30%;
+    width: 50%;
+
+    text-align: center;
+}
+.Lane.Sixth img{
+    height: 600px;
+}
+.Lane.Sixth .Previews{
+    height: 80%;
+}
+.Lane.Sixth .Previews img:nth-child(2){
+    position: relative;
+    top: 40px;
+    
+}
+.Lane.Sixth .Previews img:nth-child(4){
+    position: relative;
+    top: 40px;
+
+}
+
+.Gender button{
+    width: 150px;
+    height: 40px;
+
+    background-color: #d5d5d5;
+    border: none;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-family: "Beatrice Deck Trial-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+
+.Search{
+    border: none;
+    width: 360px;
+    height: 50px;
+
+    background-color: #D4D4D4;
+
+    position:relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Headings{
+    position: relative;
+    min-width: 30%;
+    width: 30%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Large{
+  font-family: "beatrice-deck-trial-Extrabold", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+
+  color: #000000;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.sub {
+  font-family: "beatrice-deck-trial-Light", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 32px;
+
+  color: #000000;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.Previews {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow: hidden !important;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+
+.Previews .slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    will-change: transform;
+}
+
+.Previews img {
+    height: 300px;
+    width: auto;
+    flex-shrink: 0;
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+.Arrows button {
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.Arrows button.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.GTSBtn{
+    /* border: blue 1px solid;     */
+    width: 267px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GTSBtn .btn{
+    width: 100%;
+    height: 100%;
+    background-color: #d5d5d5;
+    border-radius: 4px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 100px;
+
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+.GTSBtn .btnText{
+    font-family: "Beatrice Deck Trial-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+
+.Arrows{
+    display: flex;
+    gap: 10px;
+}
+.Arrows img{
+    width: 10px;
+    height: 10px;
+}
+
+.Arrows button{
+    margin: 2px;
+    height: 40px;
+    width: 40px;
+
+    background: none;
+    border: #D4D4D4 1px solid;
+}
+.Arrows button:hover{
+    background: #d5d5d5;
+    border: #D5D5D5 1px solid;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    flex-direction: column;
+}
+.FooterLinks{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 10px;
+
+    font-family: 'Inter',Helvetica ;
+    /* border: #000000 1px solid; */
+}
+.FooterLinks span p{
+    line-height: 10px;
+}
+.FooterLinks span p:first-child{
+    color: #9f9f9f;
+}
