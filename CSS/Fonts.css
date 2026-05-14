@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Oranienbaum_Regular';
+  src: url('/Fonts/oranienbaum-v16-latin-regular.woff2') format('woff2'),
+       url('') format('woff');
+}
+@font-face {
+  font-family: 'Bold-Beatrice';
+  src: url('/Fonts/Beatrice\ Deck\ Trial\ Extrabold.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Deck\ Trial\ Extrabold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Light-Beatrice';
+  src: url('/Fonts/Beatrice\ Deck\ Trial\ Light.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Deck\ Trial\ Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'SemiBold-Beatrice';
+  src: url('/Fonts/Beatrice\ Deck\ Trial\ Semibold.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Deck\ Trial\ Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Display-Beatrice';
+  src: url('/Fonts/Beatrice\ Display\ Trial.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Display\ Trial.woff') format('woff');
+}
+@font-face {
+  font-family: 'Headline-Beatrice';
+  src: url('/Fonts/Beatrice\ Headline\ Trial.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Headline\ Trial.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Medium-Beatrice';
+  src: url('/Fonts/Beatrice\ Trial\ Medium.woff2') format('woff2'),
+       url('/Fonts/Beatrice\ Trial\ Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Scoepe_One';
+  src: url('/Fonts/Scope\ One.woff2') format('woff2'),
+       url('/Fonts/Scope\ One.woff') format('woff');
+}
